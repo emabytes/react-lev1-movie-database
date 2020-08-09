@@ -65,10 +65,10 @@ class MovieList extends Component {
 
     sortByRating = () => {
         const sortedData = this.state.movies.sort((a, b) => {
-            if (a.rate < b.rate) {
+            if (b.rate < a.rate) {
                 return - 1;
             }
-            else if (a.rate > b.rate) {
+            else if (b.rate > a.rate) {
                 return 1;
             } else {
                 return 0;
