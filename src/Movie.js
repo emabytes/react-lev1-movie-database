@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
 
 class Movie extends Component {
-    state = {  }
+    state = {}
+    
+
+
     render() { 
         return ( 
             <article id="movie">

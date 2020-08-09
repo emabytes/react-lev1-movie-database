@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
 import movies from "./data"
-import Movie from './Movie';
 import MovieList from './MovieList';
 console.log(movies)
 
